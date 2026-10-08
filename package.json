@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-botcraft-engine",
+  "version": "1.0.0",
+  "description": "24/7 Free WhatsApp Bot Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@google/generative-ai": "^0.21.0",
+    "pino": "^8.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
